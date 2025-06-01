@@ -21,7 +21,7 @@ h2 {
 .service-background {
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)),
   url('src/img/web-BIM.jpg') center/cover no-repeat;
-  min-height: 50vh; /* Full viewport height */
+  min-height: 50vh; 
   width: 100vw; 
   padding: 4rem 1rem 8rem 1rem;
   position: relative;
@@ -58,7 +58,6 @@ h2 {
   font-size: 0.95rem;
   margin: 0;
 }
-/* Add these styles to your existing CSS */
 .service-icon {
   margin-top: 1.5rem;
   display: flex;

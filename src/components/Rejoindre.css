@@ -92,8 +92,8 @@
 
 }
 .right-image img:hover {
-  transform: scale(1.03); /* Slightly zoom in */
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+  transform: scale(1.03); 
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); 
 }
 .section-title .icon {
   color: #1c3879;

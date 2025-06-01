@@ -1,0 +1,116 @@
+.join-us-container {
+  padding: 4rem 1rem;
+  background-color: #fff;
+}
+
+.join-us-title {
+  text-align: center;
+  color: #1c3879;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.join-us-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.left-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.section {
+  margin-bottom: 2.5rem;
+}
+
+.section-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #1c3879;
+  margin-bottom: 1rem;
+}
+
+.section-description {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.offer-list,
+.profile-list,
+.apply-list {
+  padding-left: 1.25rem;
+}
+
+.offer-list li,
+.profile-list li,
+.apply-list li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.divider {
+  height: 1px;
+  background-color: #ccc;
+  margin: 2rem 0;
+}
+
+.contact-info,
+.contact-email {
+  font-size: 0.95rem;
+}
+
+.contact-email {
+  font-weight: bold;
+  color: #1c3879;
+  margin-top: 0.3rem;
+}
+
+.right-image {
+  flex: 0 0 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.right-image img {
+  width: auto;
+  height: 80vh;
+  max-width: 100%;
+  max-height: 900px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+
+}
+.right-image img:hover {
+  transform: scale(1.03); /* Slightly zoom in */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+.section-title .icon {
+  color: #1c3879;
+  margin-right: 0.6rem;
+  vertical-align:middle;
+  font-size: 1.2rem;
+}
+
+
+/* Respv*/
+@media (max-width: 992px) {
+  .join-us-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right-image {
+    margin-top: 2rem;
+  }
+}
